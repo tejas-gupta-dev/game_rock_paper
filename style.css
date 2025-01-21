@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.heading {
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 30rem;
+    color: goldenrod;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 10vh;
+}
+.choice:hover {
+    border: 3px solid white;
+}
+img {
+    width: 20vw;
+    height: 20vh;
+    background-color: black;
+    border: 2px solid goldenrod;
+    fill: rosybrown;
+    border-radius: 30%;
+}
+.text {
+    color: palevioletred;
+}
+.score {
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.point {
+    justify-content: center;
+    padding-left: 3vw;
+    font-size: 5rem;
+    color: beige;
+}
+.result {
+    border: 2px solid blue;
+    margin-top: 10vh;
+    justify-items: center;
+    padding-left: 40vw;
+    font-size: 3rem;
+    color: beige;
+}
